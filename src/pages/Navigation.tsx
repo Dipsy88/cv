@@ -1,4 +1,4 @@
-import {Avatar, Box, Container, CssBaseline, Grid, Paper, Slider, Typography} from "@mui/material";
+import {Avatar, Box, Container, CssBaseline, Grid, LinearProgress, Paper, Slider, Typography} from "@mui/material";
 import React, {useState} from "react";
 import dipesh from '../assets/images/dipesh.png'
 
@@ -87,38 +87,42 @@ const Navigation = (props: Props) => {
                                     props.scrollToSection("skills-section");
                                 }}
                             >
-                                PROFESSIONAL SKILLS
+
                             </Typography>
                         </Box>
+                        <Typography variant="body2" style={{ marginBottom: "-20px"}} gutterBottom >
+                        COMPETENCE
+                        </Typography>
                         <Box display="flex" flexDirection="column" mt={3}>
                             <Box display="flex" alignItems="center" mb={1}>
                                 <Typography variant="subtitle2" style={{ width: "100px"}}>Architecture</Typography>
                                 <Box ml={-2}>
-                                    <Slider value={80} aria-labelledby="fixed-slider" style={{ width: "80px"}}/>
+                                    <LinearProgress variant="determinate" value={85} style={{ width: "80px"}}/>
                                 </Box>
                             </Box>
                             <Box display="flex" alignItems="center" mb={1}>
                                 <Typography variant="subtitle2" style={{ width: "100px"}}>Backend</Typography>
                                 <Box ml={-2}>
-                                    <Slider value={90} aria-labelledby="fixed-slider" style={{ width: "80px"}} />
+                                    <LinearProgress variant="determinate" value={90} style={{ width: "80px"}}/>
                                 </Box>
                             </Box>
                             <Box display="flex" alignItems="center" mb={1}>
                                 <Typography variant="subtitle2" style={{ width: "100px"}}>Frontend</Typography>
                                 <Box ml={-2}>
-                                    <Slider value={70} aria-labelledby="fixed-slider" style={{ width: "80px"}}/>
+                                    <LinearProgress variant="determinate" value={80} style={{ width: "80px"}}/>
                                 </Box>
                             </Box>
                             <Box display="flex" alignItems="center" mb={1}>
                                 <Typography variant="subtitle2" style={{ width: "100px"}}>Database</Typography>
                                 <Box ml={-2}>
-                                    <Slider value={70} aria-labelledby="fixed-slider" style={{ width: "80px"}}/>
+                                    <LinearProgress variant="determinate" value={80} style={{ width: "80px"}}/>
+
                                 </Box>
                             </Box>
                             <Box display="flex" alignItems="center" mb={1}>
                                 <Typography variant="subtitle2" style={{ width: "100px"}}>Testing</Typography>
                                 <Box ml={-2}>
-                                    <Slider value={60} aria-labelledby="fixed-slider" style={{ width: "80px"}}/>
+                                    <LinearProgress variant="determinate" value={70} style={{ width: "80px"}}/>
                                 </Box>
                             </Box>
                         </Box>
