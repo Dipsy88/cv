@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://Dipsy88.github.io/cv",
+  "homepage": "https://dipsy88.github.io/cv/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
