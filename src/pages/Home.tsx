@@ -1,8 +1,9 @@
-import {Grid, Hidden} from "@mui/material";
+import {Button, Grid, Hidden} from "@mui/material";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 import React, {useState} from "react";
 import Contents from "./Contents";
 import Navigation from "./Navigation";
+import ArrowUpward from "@material-ui/icons/ArrowUpward";
 
 const Home = () => {
     // define theme
@@ -45,10 +46,17 @@ const Home = () => {
                     </Hidden>
                     <Grid item xs md style={{ overflow: 'auto', height: '100vh', background: 'inherit' }}>
                         <Contents setActiveSection={setActiveSection}/>
+                        <Button
+                            variant="outlined"
+                            onClick={() =>scrollToSection("about-section")}
+                            endIcon={<ArrowUpward />}
+
+                        >
+                            Scroll to Top
+                        </Button>
                     </Grid>
                 </Grid>
             </ThemeProvider>
-
         </div>
 
     )

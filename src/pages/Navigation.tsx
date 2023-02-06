@@ -21,7 +21,7 @@ const Navigation = (props: Props) => {
                           flexDirection="column"
                           justifyContent="center" sx={{ bgcolor: '#cfe8fc', height: '100vh' }}>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <Avatar src={dipesh} alt="pic" style={{ width: "100px", height: "100px"}} />
+                            <Avatar src={dipesh} alt="pic" style={{ width: "120px", height: "120px"}} />
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <Typography
@@ -78,19 +78,19 @@ const Navigation = (props: Props) => {
                                 SKILLS
                             </Typography>
                         </Box>
-
-                        <Box display="flex" alignItems="center" justifyContent="center" mt={2}>
+                        <Box display="flex" alignItems="center" justifyContent="center">
                             <Typography
                                 align="center"
-                                style={{ color: activeSection === 'skills-section' ? 'blue' : 'black' }}
+                                style={{ color: activeSection === 'interests-section' ? 'blue' : 'black' }}
                                 onClick={() => {
-                                    props.scrollToSection("skills-section");
+                                    props.scrollToSection("interests-section");
                                 }}
                             >
-
+                                INTERESTS
                             </Typography>
                         </Box>
-                        <Typography variant="body2" style={{ marginBottom: "-20px"}} gutterBottom >
+
+                        <Typography variant="body2" style={{ marginTop: "30px", marginBottom: "-20px"}} gutterBottom >
                         COMPETENCE
                         </Typography>
                         <Box display="flex" flexDirection="column" mt={3}>

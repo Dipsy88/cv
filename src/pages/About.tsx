@@ -29,7 +29,7 @@ const About = (props: { width: any; }) => {
                         Senior Full Stack Developer | Technical Architect at Sopra Steria
                     </Typography>
                     <Typography variant="body1">
-                        Oslo, +47 451 66 759, dipesh.pradhan@outlook.com
+                        Oslo, <a href="mailto:dipesh.pradhan@outlook.com">dipesh.pradhan@outlook.com</a>
                     </Typography>
                     <br />
                     <Typography variant="body2">

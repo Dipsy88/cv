@@ -1,12 +1,14 @@
-import {Box, CssBaseline, Paper, Typography} from "@mui/material";
-import {createTheme, ThemeProvider} from "@mui/material/styles";
+import {Box, Button} from "@mui/material";
 import React, { useEffect } from "react";
 import Education from "./Education";
 import About from "./About";
 import Experience from "./Experience";
-import {BrowserRouter as Router, Route, Routes, useLocation} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import Skills from "./Skills";
 import Certification from "./Certification";
+import ArrowUpward from '@material-ui/icons/ArrowUpward';
+import Interests from "./Interests";
+import Languages from "./Languages";
 
 interface ContentsProps {
     setActiveSection: (sectionId: string) => void
@@ -72,7 +74,12 @@ const Contents = (props: Props) => {
                 <div id="skills-section">
                     <Skills />
                 </div>
-
+                <div id="languages-section">
+                    <Languages />
+                </div>
+                <div id="interests-section">
+                    <Interests />
+                </div>
             </Box>
         </Router>
     );
