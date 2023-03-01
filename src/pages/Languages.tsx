@@ -1,13 +1,10 @@
 import {
-    Box, Button,
-    CssBaseline, Link, Paper,
+    Box,
+    CssBaseline, Paper,
     Typography
 } from "@mui/material";
-import {createTheme, Theme, ThemeProvider} from "@mui/material/styles";
+import {createTheme, ThemeProvider} from "@mui/material/styles";
 import React from "react";
-import SkillsContents from "./SkillsContents";
-import {GitHub as GitHubIcon, LinkedIn as LinkedInIcon, School as SchoolIcon} from "@mui/icons-material";
-import ResearchGateIcon from "@material-ui/icons/AccountBalance";
 
 const theme = createTheme({
     typography: {

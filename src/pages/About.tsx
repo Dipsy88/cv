@@ -15,7 +15,6 @@ const theme = createTheme({
 });
 
 const About = (props: { width: any; }) => {
-    const { width } = props;
     return (
         <ThemeProvider theme={theme} >
             <CssBaseline />

@@ -1,17 +1,12 @@
 import {
-    Accordion,
-    AccordionDetails,
-    AccordionSummary,
     Box,
-    Button,
-    Collapse,
-    CssBaseline, List, ListItem,
+    CssBaseline,
     Paper,
     Typography
 } from "@mui/material";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React, {useState} from "react";
+
 
 const theme = createTheme({
     typography: {
@@ -49,7 +44,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.soprasteria.no/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.soprasteria.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Sopra Steria
                                 </a>
                             </Typography>
@@ -63,7 +58,7 @@ const Experience = () => {
                     </Box>
                     <Box p={2} style={{ marginTop: "-20px"}}>
                         <Typography variant="body2" gutterBottom>
-                            Working on public project
+                            Working as a consultant on public agency.
                             <br />
                             <b>Tech stack:</b> Java, Kotlin, React, Typescript, UML, Postgres, REST, GraphQL, Kafka, Redis, ELK stack, Prometheus, Grafana, Azure AD, Google Cloud, Kubernetes, Github, Github Actions, Jira, ABAC
                         </Typography>
@@ -83,7 +78,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.tietoevry.com/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.tietoevry.com/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     TietoEVRY
                                 </a>
                             </Typography>
@@ -147,7 +142,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Simula Research Laboratory
                                 </a>
                             </Typography>
@@ -156,7 +151,7 @@ const Experience = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle2" gutterBottom>
-                            Dipesh worked in the <a href="https://melodic.cloud/" style={{ color: 'blue' }} target="_blank"> MELODIC project
+                            Dipesh worked in the <a href="https://melodic.cloud/" style={{ color: 'blue' }} target="_blank" rel="noreferrer"> MELODIC project
                         </a>, which is a European Union sponsored project to develop a multi-cloud management platform. This project aimed to develop a framework for using the most cost-effective cloud service from different cloud services, for example, AWS, Azure, Google Cloud, Openstack.
                             The solution helps with cloud service selection by utilizing distinct characteristics of various private and public cloud services. The solution looks at dynamic optimization of resource utilization, considers data locality, meets the user's privacy needs and service requirements, and ensures that you are not locked into 1 supplier.
                         </Typography>
@@ -181,7 +176,7 @@ const Experience = () => {
                                     <li>Experimented with different cloud services using machine learning</li>
                                     <li>Ensured best practices were followed</li>
                                     <li>Wrote documentation and provided thorough handover of the project</li>
-                                    <li>Published two research papers: <a href="https://link.springer.com/chapter/10.1007/978-3-030-20883-7_1" style={{ color: 'blue' }} target="_blank">1)</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-030-15035-8_101" style={{ color: 'blue' }} target="_blank">2)</a>, one of which won a best paper award</li>
+                                    <li>Published two research papers: <a href="https://link.springer.com/chapter/10.1007/978-3-030-20883-7_1" style={{ color: 'blue' }} target="_blank" rel="noreferrer">1)</a> and <a href="https://link.springer.com/chapter/10.1007/978-3-030-15035-8_101" style={{ color: 'blue' }} target="_blank" rel="noreferrer">2)</a>, one of which won a best paper award</li>
                                 </ul>
                             )}
                             <br />
@@ -204,7 +199,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Simula Research Laboratory
                                 </a>
                             </Typography>
@@ -213,14 +208,14 @@ const Experience = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle2" gutterBottom>
-                            Dipesh worked in the <a href="http://certus-sfi.no/" style={{ color: 'blue' }} target="_blank"> Certus project</a>, which stands for Certus Center for Software Validation and Verification.
+                            Dipesh worked in the <a href="http://certus-sfi.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer"> Certus project</a>, which stands for Certus Center for Software Validation and Verification.
                             Certus was an 8-year research project involving Simula Research Laboratory as host institution and ABB Robotics, Cancer Registry of Norway, Cisco Systems Norway, Esito and Kongsberg Maritime as using partners.
                             The Certus center formally started operations on 1 October 2011 with the status of a center for research-based innovation.
                         </Typography>
                     </Box>
                     <Box p={2} style={{ marginTop: "-20px"}}>
                         <Typography variant="body2" gutterBottom>
-                            Dipesh worked as a scientific partner in <a href="https://www.cisco.com/" style={{ color: 'blue' }} target="_blank">Cisco Systems Norway</a>, where he applied artificial intelligence techniques and machine learning to optimize test procedures for large-scale systems.
+                            Dipesh worked as a scientific partner in <a href="https://www.cisco.com/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Cisco Systems Norway</a>, where he applied artificial intelligence techniques and machine learning to optimize test procedures for large-scale systems.
                             For proof of concepts, he also used case studies from other partners (e.g., ABB Robotics) through Certus and open source projects. He obtained a PhD and published seven papers in top software engineering conferences and journals, as well as completing various research assignments.
                             The focus of his research was Evolutionary Computation Based Test Optimization of Large-Scale Systems.
                             <br />
@@ -232,12 +227,12 @@ const Experience = () => {
                             </a>
                             {showDetailsPhd && (
                                 <ul style={{ marginTop: '10px', marginBottom: '-20px' }}>
-                                    <li>Obtained a PhD with thesis title <a href="https://www.duo.uio.no/handle/10852/67569" style={{ color: 'blue' }} target="_blank">Evolutionary Computation Based Test Optimization of Large-Scale Systems</a></li>
-                                    <li>Proposed REMAP: a dynamic test prioritization method using rule mining and metaheuristic algorithms, published in <a href="https://ieeexplore.ieee.org/abstract/document/8367035" style={{ color: 'blue' }} target="_blank">International Conference on Software Testing, Verification and Validation</a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S016412121930072X" style={{ color: 'blue' }} target="_blank">Journal of Systems and Software</a></li>
-                                    <li>Developed a cost-effective approach to testing untested configurations using program dependence graphs and metaheuristic algorithms, published in <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950584919300540" style={{ color: 'blue' }} target="_blank">Information and Software Technology</a> </li>
-                                    <li>Proposed new genetic algorithms based on clustering to enhance the state-of-the-art, published in <a href="https://ieeexplore.ieee.org/abstract/document/7927990" style={{ color: 'blue' }} target="_blank">International Conference on Software Testing, Verification and Validation</a> and <a href="https://ieeexplore.ieee.org/abstract/document/8540431" style={{ color: 'blue' }} target="_blank">IEEE Transactions on Software Engineering</a></li>
-                                    <li>Proposed approaches using evolutionary algorithms to select test cases within a time budget, published in <a href="https://dl.acm.org/doi/abs/10.1145/2908812.2908850" style={{ color: 'blue' }} target="_blank">Genetic and Evolutionary Computation Conference</a></li>
-                                    <li>Proposed a multi-objective approach to prioritize the test cases, published in <a href="https://link.springer.com/chapter/10.1007/978-3-319-47443-4_11" style={{ color: 'blue' }} target="_blank">International Conference on Testing Software and Systems</a></li>
+                                    <li>Obtained a PhD with thesis title <a href="https://www.duo.uio.no/handle/10852/67569" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Evolutionary Computation Based Test Optimization of Large-Scale Systems</a></li>
+                                    <li>Proposed REMAP: a dynamic test prioritization method using rule mining and metaheuristic algorithms, published in <a href="https://ieeexplore.ieee.org/abstract/document/8367035" style={{ color: 'blue' }} target="_blank" rel="noreferrer">International Conference on Software Testing, Verification and Validation</a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S016412121930072X" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Journal of Systems and Software</a></li>
+                                    <li>Developed a cost-effective approach to testing untested configurations using program dependence graphs and metaheuristic algorithms, published in <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950584919300540" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Information and Software Technology</a> </li>
+                                    <li>Proposed new genetic algorithms based on clustering to enhance the state-of-the-art, published in <a href="https://ieeexplore.ieee.org/abstract/document/7927990" style={{ color: 'blue' }} target="_blank" rel="noreferrer">International Conference on Software Testing, Verification and Validation</a> and <a href="https://ieeexplore.ieee.org/abstract/document/8540431" style={{ color: 'blue' }} target="_blank" rel="noreferrer">IEEE Transactions on Software Engineering</a></li>
+                                    <li>Proposed approaches using evolutionary algorithms to select test cases within a time budget, published in <a href="https://dl.acm.org/doi/abs/10.1145/2908812.2908850" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Genetic and Evolutionary Computation Conference</a></li>
+                                    <li>Proposed a multi-objective approach to prioritize the test cases, published in <a href="https://link.springer.com/chapter/10.1007/978-3-319-47443-4_11" style={{ color: 'blue' }} target="_blank" rel="noreferrer">International Conference on Testing Software and Systems</a></li>
                                 </ul>
                             )}
                             <br />
@@ -260,7 +255,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Simula Research Laboratory
                                 </a>
                             </Typography>
@@ -269,7 +264,7 @@ const Experience = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle2" gutterBottom>
-                            Dipesh worked in the <a href="http://certus-sfi.no/" style={{ color: 'blue' }} target="_blank"> Certus project</a>, which stands for Certus Center for Software Validation and Verification.
+                            Dipesh worked in the <a href="http://certus-sfi.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer"> Certus project</a>, which stands for Certus Center for Software Validation and Verification.
                             Certus was an 8-year research project involving Simula Research Laboratory as host institution and ABB Robotics, Cancer Registry of Norway, Cisco Systems Norway, Esito and Kongsberg Maritime as using partners.
                             The Certus center formally started operations on 1 October 2011 with the status of a center for research-based innovation.
                         </Typography>
@@ -297,7 +292,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.simula.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Simula Research Laboratory
                                 </a>
                             </Typography>
@@ -332,7 +327,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.hansencx.com/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.hansencx.com/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Enoro
                                 </a>
                             </Typography>
@@ -390,7 +385,7 @@ const Experience = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.mountdigit.com/" style={{ color: 'blue' }} target="_blank">
+                                <a href="https://www.mountdigit.com/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                   Mountdigit Technology
                                 </a>
                             </Typography>

@@ -1,4 +1,4 @@
-import {Box, Button} from "@mui/material";
+import {Box} from "@mui/material";
 import React, { useEffect } from "react";
 import Education from "./Education";
 import About from "./About";
@@ -6,7 +6,6 @@ import Experience from "./Experience";
 import {BrowserRouter as Router} from "react-router-dom";
 import Skills from "./Skills";
 import Certification from "./Certification";
-import ArrowUpward from '@material-ui/icons/ArrowUpward';
 import Interests from "./Interests";
 import Languages from "./Languages";
 
@@ -32,7 +31,6 @@ const Contents = (props: Props) => {
         const aboutSection = document.getElementById("about-section");
         const experienceSection = document.getElementById("experience-section");
         const educationSection = document.getElementById("education-section");
-        const scrollPos = window.scrollY;
 
         if (aboutSection) observer.observe(aboutSection);
         if (educationSection) observer.observe(educationSection);
@@ -74,9 +72,9 @@ const Contents = (props: Props) => {
                 <div id="skills-section">
                     <Skills />
                 </div>
-                <div id="languages-section">
+{/*                <div id="languages-section">
                     <Languages />
-                </div>
+                </div>*/}
                 <div id="interests-section">
                     <Interests />
                 </div>

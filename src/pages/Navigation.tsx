@@ -1,5 +1,5 @@
-import {Avatar, Box, Container, CssBaseline, Grid, LinearProgress, Paper, Slider, Typography} from "@mui/material";
-import React, {useState} from "react";
+import {Avatar, Box, Container, CssBaseline, LinearProgress, Typography} from "@mui/material";
+import React from "react";
 import dipesh from '../assets/images/dipesh.png'
 
 interface NavigationProps {

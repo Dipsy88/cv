@@ -2,7 +2,7 @@ import {
     CssBaseline,
     Typography
 } from "@mui/material";
-import {createTheme, Theme, ThemeProvider} from "@mui/material/styles";
+import {createTheme, ThemeProvider} from "@mui/material/styles";
 import React from "react";
 import SkillsContents from "./SkillsContents";
 
