@@ -36,7 +36,7 @@ const About = (props: { width: any; }) => {
                     </Typography>
                 </Box>
                 <Box  display="flex" flexWrap="wrap" justifyContent="center">
-                    <Link href="https://github.com/dipeshpradhan" target="_blank">
+                    <Link href="https://github.com/dipsy88" target="_blank">
                         <Button variant="contained" color="primary" startIcon={<GitHubIcon />}>
                             Github
                         </Button>
