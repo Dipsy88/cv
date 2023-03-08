@@ -32,7 +32,7 @@ const Education = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.uio.no/" style={{ color: 'blue' }}>
+                                <a href="https://www.uio.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     University of Oslo (UiO)
                                 </a>
                             </Typography>
@@ -43,7 +43,7 @@ const Education = () => {
                         <Typography variant="body2" gutterBottom>
                             <b>Courses:</b> Open Distributed Processing (INF9040), Statistical Methods and Applications (STK9900), Communicating Scientific Research (INF9051SP), Science, Ethics, and Society (MNSES9100)
                             <br />
-                            <b>Thesis Title:</b> <a href="https://www.duo.uio.no/handle/10852/67569" style={{ color: 'blue' }}>Evolutionary Computation Based Test Optimization of Large-Scale Systems</a>
+                            <b>Thesis Title:</b> <a href="https://www.duo.uio.no/handle/10852/67569" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Evolutionary Computation Based Test Optimization of Large-Scale Systems</a>
                         </Typography>
                     </Box>
                 </Paper>
@@ -61,7 +61,7 @@ const Education = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.uio.no/" style={{ color: 'blue' }}>
+                                <a href="https://www.uio.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     University of Oslo (UiO)
                                 </a>
                             </Typography>
@@ -90,7 +90,7 @@ const Education = () => {
                         </Box>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="subtitle1" gutterBottom>
-                                <a href="https://www.metropolia.fi/en" style={{ color: 'blue' }}>
+                                <a href="https://www.metropolia.fi/en" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Metropolia University of Applied Sciences
                                 </a>
                             </Typography>
@@ -113,15 +113,18 @@ const Education = () => {
                 <Paper elevation={3}>
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
+
                             <Typography variant="h6" gutterBottom>
-                                Arkitektskolen
+                                <a href="https://bit.ly/3YHlseR" style={{ color: '#0077c2', textDecoration: 'none', fontWeight: 'normal' }} target="_blank" rel="noreferrer">
+                                    Arkitektskolen
+                                </a>
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Feb 2022 - Oct 2022
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" gutterBottom>
-                            <a href="https://www.soprasteria.no/" style={{ color: 'blue' }}>
+                            <a href="https://www.soprasteria.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                 Sopra Steria
                             </a>
                         </Typography>
@@ -136,7 +139,7 @@ const Education = () => {
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" gutterBottom>
-                            <a href="http://certus-sfi.no/" style={{ color: 'blue' }}>
+                            <a href="http://certus-sfi.no/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                 Certus
                             </a>
                         </Typography>
@@ -144,14 +147,16 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                Data Science: Data to Insights
+                                <a href="https://bit.ly/3RYLDvt" style={{ color: '#0077c2', textDecoration: 'none', fontWeight: 'normal' }} target="_blank" rel="noreferrer">
+                                    Data Science: Data to Insights
+                                </a>
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Oct 2016 - Nov 2016
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" gutterBottom>
-                            <a href="https://professional.mit.edu/" style={{ color: 'blue' }}>
+                            <a href="https://professional.mit.edu/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                 Massachusetts Institute of Technology - Professional Education
                             </a>
                         </Typography>
@@ -159,14 +164,16 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                Introduction to Databases
+                                <a href="https://bit.ly/3ltFwTR" style={{ color: '#0077c2', textDecoration: 'none', fontWeight: 'normal' }} target="_blank" rel="noreferrer">
+                                    Introduction to Databases
+                                </a>
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Jan 2013 - March 2013
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" gutterBottom>
-                            <a href="https://online.stanford.edu/" style={{ color: 'blue' }}>
+                            <a href="https://online.stanford.edu/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                 Stanford University
                             </a>
                         </Typography>
@@ -174,14 +181,16 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                8th Baltic summer school in Network Security and Forensics supported by DAAD
+                                <a href="https://bit.ly/3ROvgSf" style={{ color: '#0077c2', textDecoration: 'none', fontWeight: 'normal' }} target="_blank" rel="noreferrer">
+                                    Summer school in Network Security and Forensics
+                                </a>
                             </Typography>
                             <Typography variant="body2" gutterBottom>
-                                July 2022 - Aug 2012
+                                July 2012 - Aug 2012
                             </Typography>
                         </Box>
                         <Typography variant="subtitle1" gutterBottom>
-                            <a href="https://www.uni-rostock.de/internationales/rostock-international-house/sommerschulen/basoti/basoti-2012/" style={{ color: 'blue' }}>
+                            <a href="https://www.uni-rostock.de/internationales/rostock-international-house/sommerschulen/basoti/basoti-2012/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                 Universität Rostock, University of Tartu, Universität Bremen, Universität zu Lübeck, Hochschule für Technik und Wirtschaft Dresden
                             </a>
                         </Typography>

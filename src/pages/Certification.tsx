@@ -23,7 +23,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography gutterBottom>
-                                <a href="https://www.credly.com/badges/5e829527-ea41-4264-9224-09b333b21375/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/5e829527-ea41-4264-9224-09b333b21375/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Microsoft Certified DevOps Engineer Expert (AZ-400)
                                 </a>
                             </Typography>
@@ -40,7 +40,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography gutterBottom>
-                                <a href="https://www.credly.com/badges/a0dc8631-61cb-4833-9c83-9d7b9d004f7b/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/a0dc8631-61cb-4833-9c83-9d7b9d004f7b/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Microsoft Certified Azure Developer Associate (AZ-204)
                                 </a>
                             </Typography>
@@ -57,7 +57,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/ef67d96c-fe85-4b98-b238-def4ae1c2121/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/ef67d96c-fe85-4b98-b238-def4ae1c2121/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Microsoft Certified Azure Data Fundamentals (DP-900)
                                 </a>
                             </Typography>
@@ -74,7 +74,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/63c59e8b-4c15-492d-bb93-30ccb036f7a2/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/63c59e8b-4c15-492d-bb93-30ccb036f7a2/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Microsoft Certified Azure AI Fundamentals (AI-900)
                                 </a>
                             </Typography>
@@ -91,7 +91,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/c8cb26fe-64d7-487b-84d0-281445a5bc0b/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/c8cb26fe-64d7-487b-84d0-281445a5bc0b/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Microsoft Certified Azure Fundamentals (AZ-900)
                                 </a>
                             </Typography>
@@ -108,7 +108,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/f7f916c1-3747-427b-b6a6-e395e21108e3/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/f7f916c1-3747-427b-b6a6-e395e21108e3/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Big Data Foundations - Level 1
                                 </a>
                             </Typography>
@@ -125,7 +125,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/9f58fe4d-7a03-4975-aa62-a5b331c1a047/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/9f58fe4d-7a03-4975-aa62-a5b331c1a047/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Applied Data Science with Python - Level 2
                                 </a>
                             </Typography>
@@ -142,7 +142,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/874fde74-6808-4814-9b07-e56abcce29c1/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/874fde74-6808-4814-9b07-e56abcce29c1/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Machine Learning with Python - Level 1
                                 </a>
                             </Typography>
@@ -159,7 +159,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/3c703162-2213-4727-99ec-b4195d0a3a57/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/3c703162-2213-4727-99ec-b4195d0a3a57/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Python for Data Science
                                 </a>
                             </Typography>
@@ -176,7 +176,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/a118787a-ac05-465d-92dd-19e503b6c933/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/a118787a-ac05-465d-92dd-19e503b6c933/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Hadoop Foundations - Level 1
                                 </a>
                             </Typography>
@@ -193,7 +193,7 @@ const Education = () => {
                     <Paper elevation={3} style={{ margin: "0px 2px", width: "calc(33.33% - 4px)" }}>
                         <Box p={2}>
                             <Typography  gutterBottom>
-                                <a href="https://www.credly.com/badges/ef67d96c-fe85-4b98-b238-def4ae1c2121/public_url" style={{ color: 'blue' }}>
+                                <a href="https://www.credly.com/badges/ef67d96c-fe85-4b98-b238-def4ae1c2121/public_url" style={{ color: 'blue' }} target="_blank" rel="noreferrer">
                                     Certified Tester, Foundation Level (CTFL)
                                 </a>
                             </Typography>

@@ -217,7 +217,7 @@ const Experience = () => {
                         <Typography variant="body2" gutterBottom>
                             Dipesh worked as a scientific partner in <a href="https://www.cisco.com/" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Cisco Systems Norway</a>, where he applied artificial intelligence techniques and machine learning to optimize test procedures for large-scale systems.
                             For proof of concepts, he also used case studies from other partners (e.g., ABB Robotics) through Certus and open source projects. He obtained a PhD and published seven papers in top software engineering conferences and journals, as well as completing various research assignments.
-                            The focus of his research was Evolutionary Computation Based Test Optimization of Large-Scale Systems.
+                            The focus of his research was Evolutionary Computation Based Test Optimization of Large-Scale Systems. In addition, he supervised interns.
                             <br />
                             <a
                                 style={{ color: 'blue', cursor: 'pointer' }}
@@ -233,6 +233,7 @@ const Experience = () => {
                                     <li>Proposed new genetic algorithms based on clustering to enhance the state-of-the-art, published in <a href="https://ieeexplore.ieee.org/abstract/document/7927990" style={{ color: 'blue' }} target="_blank" rel="noreferrer">International Conference on Software Testing, Verification and Validation</a> and <a href="https://ieeexplore.ieee.org/abstract/document/8540431" style={{ color: 'blue' }} target="_blank" rel="noreferrer">IEEE Transactions on Software Engineering</a></li>
                                     <li>Proposed approaches using evolutionary algorithms to select test cases within a time budget, published in <a href="https://dl.acm.org/doi/abs/10.1145/2908812.2908850" style={{ color: 'blue' }} target="_blank" rel="noreferrer">Genetic and Evolutionary Computation Conference</a></li>
                                     <li>Proposed a multi-objective approach to prioritize the test cases, published in <a href="https://link.springer.com/chapter/10.1007/978-3-319-47443-4_11" style={{ color: 'blue' }} target="_blank" rel="noreferrer">International Conference on Testing Software and Systems</a></li>
+                                    <li>Supervised summer interns</li>
                                 </ul>
                             )}
                             <br />

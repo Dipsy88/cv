@@ -22,6 +22,7 @@ const Skills = () => {
             <Typography variant="h5" gutterBottom>
                 Skills
             </Typography>
+            <br/>
             <SkillsContents/>
             <br/>
         </ThemeProvider>

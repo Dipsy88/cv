@@ -32,7 +32,7 @@ const About = (props: { width: any; }) => {
                     </Typography>
                     <br />
                     <Typography variant="body2">
-                        Motivated professional with extensive experience in software development. I have a passion for learning, and I am always looking to improve myself.
+                        Experienced full stack developer and technical architect based in Oslo, with a passion for technology and innovation. I've led teams on challenging projects, from loan processing systems to multi-cloud management platforms. With a PhD in software engineering and a focus on AI and machine learning, I'm always looking for the best solutions to complex problems.
                     </Typography>
                 </Box>
                 <Box  display="flex" flexWrap="wrap" justifyContent="center">
@@ -60,13 +60,14 @@ const About = (props: { width: any; }) => {
                         </Button>
                     </Link>
                 </Box>
-                <Box mt={2} display="flex" justifyContent="center">
+                <br/>
+               {/* <Box mt={2} display="flex" justifyContent="center">
                     <Link href="path/to/resume.pdf" download>
                         <Button variant="contained" color="secondary">
                             Download my resume
                         </Button>
                     </Link>
-                </Box>
+                </Box>*/}
             </Paper>
             </Box>
         </ThemeProvider>
