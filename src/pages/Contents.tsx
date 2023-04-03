@@ -75,6 +75,7 @@ const Contents = (props: Props) => {
 {/*                <div id="languages-section">
                     <Languages />
                 </div>*/}
+                <br />
                 <div id="interests-section">
                     <Interests />
                 </div>

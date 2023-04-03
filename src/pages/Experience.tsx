@@ -58,7 +58,7 @@ const Experience = () => {
                     </Box>
                     <Box p={2} style={{ marginTop: "-20px"}}>
                         <Typography variant="body2" gutterBottom>
-                            Working as a consultant on public agency.
+                            Working as a consultant on a public agency.
                             <br />
                             <b>Tech stack:</b> Java, Kotlin, React, Typescript, UML, Postgres, REST, GraphQL, Kafka, Redis, ELK stack, Prometheus, Grafana, Azure AD, Google Cloud, Kubernetes, Github, Github Actions, Jira, ABAC
                         </Typography>
@@ -194,7 +194,7 @@ const Experience = () => {
                                 Phd Research Fellow, Developer
                             </Typography>
                             <Typography variant="body2" gutterBottom>
-                                Sept 2015 - Aug 2081
+                                Sept 2015 - Aug 2018
                             </Typography>
                         </Box>
                         <Box display="flex" justifyContent="space-between">
@@ -319,7 +319,7 @@ const Experience = () => {
                             </Typography>
                             <Box display="flex" flexDirection="column" alignItems="flex-end">
                                 <Typography variant="body2" gutterBottom>
-                                    Jan 2014 - Dec 2014 (Remote work)
+                                    Jan 2014 - Dec 2014 (50%)
                                 </Typography>
                                 <Typography variant="body2" gutterBottom>
                                     April 2011 - Aug 2013
