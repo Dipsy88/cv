@@ -60,7 +60,7 @@ const Experience = () => {
                         <Typography variant="body2" gutterBottom>
                             Working as a consultant on a public agency.
                             <br />
-                            <b>Tech stack:</b> Java, Kotlin, React, Typescript, UML, Postgres, REST, GraphQL, Kafka, Redis, ELK stack, Prometheus, Grafana, Azure AD, Google Cloud, Kubernetes, Github, Github Actions, Jira, ABAC
+                            <b>Tech stack:</b> Java, Kotlin, React, Typescript, UML, Postgres, REST, GraphQL, Kafka, Redis, ELK stack, Prometheus, Grafana, Azure AD, Google Cloud, Kubernetes, Github, Github Actions, Jira, Attribute-based Access Control (ABAC), Universell Utforming (UU)
                         </Typography>
                     </Box>
                 </Paper>

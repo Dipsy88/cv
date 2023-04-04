@@ -72,9 +72,9 @@ const Contents = (props: Props) => {
                 <div id="skills-section">
                     <Skills />
                 </div>
-{/*                <div id="languages-section">
+                <div id="languages-section">
                     <Languages />
-                </div>*/}
+                </div>
                 <br />
                 <div id="interests-section">
                     <Interests />

@@ -5,6 +5,7 @@ import {
 } from "@mui/material";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
 import React from "react";
+import LanguageContents from "./LanguageContents";
 
 const theme = createTheme({
     typography: {
@@ -15,29 +16,18 @@ const theme = createTheme({
     },
 });
 
-const Interests = () => {
+const Languages = () => {
     return (
         <ThemeProvider theme={theme} >
             <CssBaseline />
             <Typography variant="h5" gutterBottom>
-                Interests
+                Languages
             </Typography>
-            <Box m={2} >
-                <Paper elevation={3} >
-                    <Box p={2} >
-                        English
-                    </Box>
-                </Paper>
-            </Box>
-            <Box m={2} >
-                <Paper elevation={3} >
-                    <Box p={2} >
-
-                    </Box>
-                </Paper>
-            </Box>
+            <br />
+            <LanguageContents />
+            <br />
         </ThemeProvider>
     );
 };
 
-export default Interests;
+export default Languages;

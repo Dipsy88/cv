@@ -81,6 +81,17 @@ const Navigation = (props: Props) => {
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <Typography
                                 align="center"
+                                style={{ color: activeSection === 'languages-section' ? 'blue' : 'black' }}
+                                onClick={() => {
+                                    props.scrollToSection("languages-section");
+                                }}
+                            >
+                                LANGUAGES
+                            </Typography>
+                        </Box>
+                        <Box display="flex" alignItems="center" justifyContent="center">
+                            <Typography
+                                align="center"
                                 style={{ color: activeSection === 'interests-section' ? 'blue' : 'black' }}
                                 onClick={() => {
                                     props.scrollToSection("interests-section");
