@@ -58,7 +58,7 @@ const Experience = () => {
                     </Box>
                     <Box p={2} style={{ marginTop: "-20px"}}>
                         <Typography variant="body2" gutterBottom>
-                            Working as a consultant on a public agency.
+                            Working as a consultant for a public agency.
                             <br />
                             <b>Tech stack:</b> Java, Kotlin, React, Typescript, UML, Postgres, REST, GraphQL, Kafka, Redis, ELK stack, Prometheus, Grafana, Azure AD, Google Cloud, Kubernetes, Github, Github Actions, Jira, Attribute-based Access Control (ABAC), Universell Utforming (UU)
                         </Typography>

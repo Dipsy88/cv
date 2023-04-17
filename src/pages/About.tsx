@@ -4,6 +4,7 @@ import {LinkedIn as LinkedInIcon, School as SchoolIcon, GitHub as GitHubIcon} fr
 import ResearchGateIcon from '@material-ui/icons/AccountBalance';
 import React from "react";
 import { withWidth } from "@material-ui/core";
+import cv from '../assets/files/cv.pdf';
 
 const theme = createTheme({
     typography: {
@@ -61,13 +62,13 @@ const About = (props: { width: any; }) => {
                     </Link>
                 </Box>
                 <br/>
-               {/* <Box mt={2} display="flex" justifyContent="center">
-                    <Link href="path/to/resume.pdf" download>
+                <Box mt={2} display="flex" justifyContent="center">
+                    <Link href={cv} download>
                         <Button variant="contained" color="secondary">
                             Download my resume
                         </Button>
                     </Link>
-                </Box>*/}
+                </Box>
             </Paper>
             </Box>
         </ThemeProvider>

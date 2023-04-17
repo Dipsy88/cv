@@ -24,7 +24,7 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                Doctor of Philosophy (PhD) Informatics: Software Engineering
+                                Doctor of Philosophy (PhD) in Informatics: Software Engineering
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Aug 2015 - July 2018
@@ -53,7 +53,7 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                Master of Science (MS) Informatics: Programming and Network - A
+                                Master of Science (MS) in Informatics: Programming and Network - A
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Aug 2013 - July 2015
@@ -82,7 +82,7 @@ const Education = () => {
                     <Box p={2}>
                         <Box display="flex" justifyContent="space-between">
                             <Typography variant="h6" gutterBottom>
-                                Bachelor of Engineering (BE) Information Technology - B
+                                Bachelor of Engineering (BEng) Information Technology - B
                             </Typography>
                             <Typography variant="body2" gutterBottom>
                                 Aug 2008 - Dec 2011
